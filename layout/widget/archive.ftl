@@ -2,7 +2,7 @@
     <div class="card-content">
         <div class="menu">
         <h3 class="menu-label">
-            归档
+            Archives
         </h3>
         <ul class="menu-list">
             <% _list_archives().forEach(archive => { %>
