@@ -3,7 +3,7 @@
         <div class="card widget">
             <div class="card-content">
                 <h3 class="menu-label">
-                    标签云
+                    TAG CLOUD
                 </h3>
                 <#list tags as tag>
                     <a href="${tag.fullPath!}" style="font-size:${tag.postCount+tag.name?length+tag.slug?length}px">${tag.name!}</a>

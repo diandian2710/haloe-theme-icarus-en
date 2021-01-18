@@ -2,7 +2,7 @@
     <div class="card-content">
         <div class="menu">
             <h3 class="menu-label">
-                标签
+                TAGS
             </h3>
             <div class="field is-grouped is-grouped-multiline">
                 <@tagTag method="list">

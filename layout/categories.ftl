@@ -2,7 +2,7 @@
     <div class="card-content">
         <div class="menu">
             <h3 class="menu-label">
-                分类
+                CATEGORIES
             </h3>
             <ul class="menu-list">
                 <@categoryTag method="list">

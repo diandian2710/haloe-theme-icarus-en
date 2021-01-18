@@ -2,7 +2,7 @@
     <div class="card-content">
         <nav class="breadcrumb" aria-label="breadcrumbs">
         <ul>
-            <li><a href="${categories_url!}">分类></a></li>
+            <li><a href="${categories_url!}">Category</a></li>
             <li class="is-active"><a href="#" aria-current="page">${category.name}</a></li>
         </ul>
         </nav>

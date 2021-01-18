@@ -9,7 +9,7 @@
         <div class="searchbox-result-wrapper ins-section-wrapper">
             <div class="ins-section-container">
                 <section class="ins-section">
-                    <header class="ins-section-header">最新文章</header>
+                    <header class="ins-section-header">RECENT</header>
                     <@postTag method="latest" top="5">
                         <#list posts as post>
                             <a href="${post.fullPath!}">
@@ -23,7 +23,7 @@
                     </@postTag>
                 </section>
                 <section class="ins-section">
-                    <header class="ins-section-header">分类</header>
+                    <header class="ins-section-header">Category</header>
                     <@categoryTag method="list">
                         <#list categories as category>
                             <a href="${category.fullPath!}">

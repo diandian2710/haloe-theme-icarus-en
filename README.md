@@ -6,6 +6,8 @@
 
 原主题地址：[https://github.com/ppoffice/hexo-theme-icarus](https://github.com/ppoffice/hexo-theme-icarus)
 
+**感谢原作者以及halo主题制作者，在此基础上增加了英语支持**
+
 ## 预览截图
 
 ![screenshot.png](https://i.loli.net/2019/08/24/qAZXw6Eo54PbQJ7.png)
