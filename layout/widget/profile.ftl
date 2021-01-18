@@ -25,7 +25,7 @@
             <div class="level-item has-text-centered is-marginless">
                 <div>
                     <p class="heading">
-                        文章
+                        POSTS
                     </p>
                     <p class="title has-text-weight-normal">
                         <@postTag method="count">${count}</@postTag>
@@ -35,7 +35,7 @@
             <div class="level-item has-text-centered is-marginless">
                 <div>
                     <p class="heading">
-                        分类
+                        CATEGORIES
                     </p>
                     <p class="title has-text-weight-normal">
                         <@categoryTag method="count">${count}</@categoryTag>
@@ -45,7 +45,7 @@
             <div class="level-item has-text-centered is-marginless">
                 <div>
                     <p class="heading">
-                        标签
+                        TAGS
                     </p>
                     <p class="title has-text-weight-normal">
                         <@tagTag method="count">${count}</@tagTag>
@@ -54,7 +54,7 @@
             </div>
         </nav>
         <div class="level">
-            <a class="level-item button is-link is-rounded" href="${settings.profile_follow_url!'${blog_url!}'}" target="_blank">关注我</a>
+            <a class="level-item button is-link is-rounded" href="${settings.profile_follow_url!'${blog_url!}'}" target="_blank">Follow</a>
         </div>
         <div class="level is-mobile">
             <#if settings.social_github?? && settings.social_github!=''>
