@@ -1,7 +1,7 @@
 <div class="card widget">
     <div class="card-content">
         <h3 class="menu-label">
-            最新文章
+            RECENT
         </h3>
         <@postTag method="latest" top="5">
             <#list posts as post>

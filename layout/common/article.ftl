@@ -67,7 +67,7 @@
         <div class="level is-mobile">
             <div class="level-start">
                 <div class="level-item">
-                <a class="button is-size-7 is-light" href="${post.fullPath!}#more">阅读更多</a>
+                <a class="button is-size-7 is-light" href="${post.fullPath!}#more">Read More</a>
                 </div>
             </div>
         </div>
